@@ -5,11 +5,11 @@
 #include <MQ2.h>
 
 // Wifi
-#define ssid "linksys"//"ICSE_Child"//"HPCC_IOT"
-#define password ""//"icse_child@123"//"hpcc_iot"
+#define ssid "linksys"//Wifi
+#define password ""//Wifi-pass
 
 // MQTT Broker
-#define mqtt_server "192.168.1.233" // "192.168.1.40" 
+#define mqtt_server "192.168.1.233" // MQTT-server address
 #define mqtt_topic_pub "demo"   
 #define mqtt_topic_sub "demo"
 #define mqtt_user "prj1"   
